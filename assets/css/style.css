@@ -40,6 +40,15 @@
   border-color: white;
 }
 
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+ 
+  
 .footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
