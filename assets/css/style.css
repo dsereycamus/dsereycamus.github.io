@@ -42,11 +42,13 @@
 
 a:link {
   text-decoration: none;
+  color:blueviolet
 }
 
 a:hover {
   color: white;
 }
+
 
 .btn-social {
   border-radius: 50%;
