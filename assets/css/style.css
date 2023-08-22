@@ -47,7 +47,14 @@ a:link {
 a:hover {
   color: white;
 }
- 
+
+.btn-social {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
   
 .footer {
   padding-top: 2rem;
