@@ -40,15 +40,18 @@
   border-color: white;
 }
 
-a:link {
+a:link, .proyectose {
+  color: burlywood;
   text-decoration: none;
-  color:blueviolet
 }
 
 a:hover {
   color: white;
 }
 
+a:active{
+  color: black;
+}
 
 .btn-social {
   border-radius: 50%;
@@ -57,7 +60,6 @@ a:hover {
   align-items: center;
 }
 
-  
 .footer {
   padding-top: 2rem;
   padding-bottom: 2rem;
