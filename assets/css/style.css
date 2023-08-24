@@ -8,9 +8,11 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: left;
+  padding-top: 155px;
+  padding-bottom: 155px;
 }
 
-#Sobremi, #Educación, #Experiencia {
+#Sobremi, #Educación, #Experiencia, #Portafolio {
   padding-top: 80px;
   padding-bottom: 80px; 
 }
@@ -21,6 +23,11 @@
 
 #estudios{
   text-align: center;
+}
+
+
+#Portafolio{
+  background-color: #D3D3D3;
 }
 
 .divider-custom {
@@ -41,7 +48,7 @@
 }
 
 a:link, .proyectose {
-  color: burlywood;
+  color: black;
   text-decoration: none;
 }
 
@@ -67,3 +74,11 @@ a:active{
   color: #fff;
 }
 
+#oscurecer {
+  transition: all 0.8s ease;
+}
+
+#oscurecer:hover {
+  transition: all 0.6s ease;
+  filter: brightness(25%)
+}
